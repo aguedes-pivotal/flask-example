@@ -1,0 +1,6 @@
+---
+applications:
+- memory: 128M 
+  disk: 256M
+  instances: 3
+  host: flask-example-${random-word}
