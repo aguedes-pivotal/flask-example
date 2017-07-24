@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     vcap_services = getenv('VCAP_SERVICES')
-    return jsonify({'message': 'hello everyone!', 'hostname': gethostname(), 'services-bind': json.loads(vcap_services)}), 200
+    return jsonify({'message': 'hello world', 'hostname': gethostname(), 'services-bind': json.loads(vcap_services)}), 200
 
 
 port = getenv('PORT', '5000')
