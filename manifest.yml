@@ -2,6 +2,6 @@
 applications:
 - memory: 128M 
   disk: 256M
-  instances: 3
+  instances: 1
   name: flask-example
   host: flask-example-${random-word}
