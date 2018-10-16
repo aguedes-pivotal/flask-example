@@ -4,4 +4,4 @@ applications:
   disk: 256M
   instances: 1
   name: flask-example
-  host: flask-example-${random-word}
+  random-route: true
